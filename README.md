@@ -15,20 +15,20 @@
 
 **ATools**类库包含：
 
-+ **AAppDelegate：**APPDelegate的基础封装
++ AAppDelegate：APPDelegate的基础封装
 
 **CommonFramework**类库包含：
 
-+ **BaseVC：**UIViewController基础类
-+ **BaseView：**UIView基础类
-+ **BaseVM：**viewModel基础类
-+ **BaseCell：**UITableViewCell基础类
-+ **BaseCollectionViewCell：**UICollectionViewCell基础类
-+ **BaseDesign：**设计基础类，类中实现了ColorDesign和StyleDesign
-+ **ColorDesign：**标准颜色库
-+ **StyleDesign：**标准样式库
-+ **BaseCommon：**基础功能包。基础功能全部写在此类中
-+ **ThirdpartyUtils：**三方工具配置包。例如：友盟等第三方库的AppKey等
-+ **Utils：**公共工具包。一些小工具可以写在这里
-+ **CommonParameters：**全局基础参数
++ BaseVC：UIViewController基础类
++ BaseView：UIView基础类
++ BaseVM：viewModel基础类
++ BaseCell：UITableViewCell基础类
++ BaseCollectionViewCell：UICollectionViewCell基础类
++ BaseDesign：设计基础类，类中实现了ColorDesign和StyleDesign
++ ColorDesign：标准颜色库
++ StyleDesign：标准样式库
++ BaseCommon：基础功能包。基础功能全部写在此类中
++ ThirdpartyUtils：三方工具配置包。例如：友盟等第三方库的AppKey等
++ Utils：公共工具包。一些小工具可以写在这里
++ CommonParameters：全局基础参数
 
