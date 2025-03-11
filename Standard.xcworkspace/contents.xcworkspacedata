@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:CommonFramework/CommonFramework.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ATools/ATools.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:Standard/Standard.xcodeproj">
+   </FileRef>
+</Workspace>
