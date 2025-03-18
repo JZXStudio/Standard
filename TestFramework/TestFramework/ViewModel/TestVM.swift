@@ -15,7 +15,13 @@ class TestVM: BaseVM {
         super.a_Notification()
         
         Manage_SetNotifications([
-            
+            "test"
         ])
+    }
+    
+    override func ANotificationReceive(notification: Notification) {
+        if notification.name.rawValue == "test" {
+            printLog("test")
+        }
     }
 }

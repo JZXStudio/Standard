@@ -21,3 +21,11 @@ class Common_TableViewStyle: DesignStyleProtocol {
     
     public static let shared = Common_TableViewStyle()
 }
+
+class Common_ButtonStyle: DesignStyleProtocol {
+    var maskToBounds: Any = true
+    var shadow: Any = UIColor.darkGray
+    var radius: Any = 16.0
+    
+    public static let shared = Common_ButtonStyle()
+}

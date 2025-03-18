@@ -14,6 +14,12 @@ open class TestVC: BaseVC {
     private let a_view: TestView = TestView()
     private let viewModel: TestVM = TestVM()
     
+    open override func a_Navigation() {
+        super.a_Navigation()
+        
+        navigation_Title("test")
+    }
+    
     open override func a_UI() {
         super.a_UI()
         

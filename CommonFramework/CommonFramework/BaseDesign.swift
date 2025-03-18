@@ -16,4 +16,6 @@ open class BaseDesign: UIDesign {
     /// 标准样式库
     /// 这里是tableView的标准样式。如果想创建其它组件的标准样式，请按照__StyleDesign__类中的创建方法，新建对应的类
     public let tableViewStyle: DesignStyleProtocol = Common_TableViewStyle.shared
+    
+    public let buttonStyle: DesignStyleProtocol = Common_ButtonStyle.shared
 }
