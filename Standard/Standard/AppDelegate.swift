@@ -12,6 +12,8 @@ import AppTrackingTransparency
 import ATools
 import Aquarius
 
+import TestFramework
+
 @main
 class AppDelegate: AAppDelegate {
     private var idfa: String = ""
@@ -71,4 +73,3 @@ class AppDelegate: AAppDelegate {
     }
      */
 }
-

@@ -522,9 +522,6 @@ SWIFT_CLASS("_TtC8Aquarius14ATableViewCell")
 @interface ATableViewCell : UITableViewCell
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-/// 热更新时调用的代码在此方法中实现
-/// <em>此方法依赖InjectIII工具</em>
-- (void)injected;
 @end
 
 
@@ -920,9 +917,6 @@ SWIFT_CLASS("_TtC8Aquarius5AView")
 - (void)manageAllEventsWithSender:(UIControl * _Nonnull)sender;
 - (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 - (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-/// 热更新时调用的代码在此方法中实现
-/// <em>此方法依赖InjectIII工具</em>
-- (void)injected;
 @end
 
 
@@ -972,9 +966,6 @@ SWIFT_CLASS("_TtC8Aquarius15AViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (void)viewDidLoad;
-/// 热更新时调用的代码在此方法中实现
-/// <em>此方法依赖InjectIII工具</em>
-- (void)injected;
 @end
 
 
@@ -1003,9 +994,6 @@ SWIFT_CLASS("_TtC8Aquarius15AViewController")
 SWIFT_CLASS("_TtC8Aquarius10AViewModel")
 @interface AViewModel : AViewBase
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-/// 热更新时调用的代码在此方法中实现
-/// <em>此方法依赖InjectIII工具</em>
-- (void)injected;
 @end
 
 

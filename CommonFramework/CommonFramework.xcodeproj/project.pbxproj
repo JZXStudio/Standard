@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		276A5B0F2D894E9B007E5A35 /* BaseCell.swift in Headers */ = {isa = PBXBuildFile; fileRef = 277DDFCE2D8055B700A5026C /* BaseCell.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		276A5B102D894E9B007E5A35 /* BaseCollectionViewCell.swift in Headers */ = {isa = PBXBuildFile; fileRef = 277DDFCF2D8055B700A5026C /* BaseCollectionViewCell.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		276A5B112D894E9B007E5A35 /* BaseCommon.swift in Headers */ = {isa = PBXBuildFile; fileRef = 277DDFD02D8055B700A5026C /* BaseCommon.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		276A5B122D894E9B007E5A35 /* BaseDesign.swift in Headers */ = {isa = PBXBuildFile; fileRef = 277DDFD12D8055B700A5026C /* BaseDesign.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		276A5B132D894E9B007E5A35 /* BaseVC.swift in Headers */ = {isa = PBXBuildFile; fileRef = 277DDFD22D8055B700A5026C /* BaseVC.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		276A5B142D894E9B007E5A35 /* BaseView.swift in Headers */ = {isa = PBXBuildFile; fileRef = 277DDFD32D8055B700A5026C /* BaseView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		276A5B152D894E9B007E5A35 /* BaseVM.swift in Headers */ = {isa = PBXBuildFile; fileRef = 277DDFD42D8055B700A5026C /* BaseVM.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		276A5B162D894E9B007E5A35 /* ColorDesign.swift in Headers */ = {isa = PBXBuildFile; fileRef = 277DDFD52D8055B700A5026C /* ColorDesign.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		276A5B172D894E9B007E5A35 /* CommonParameters.swift in Headers */ = {isa = PBXBuildFile; fileRef = 277DDFD82D8055B700A5026C /* CommonParameters.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		276A5B182D894E9B007E5A35 /* StyleDesign.swift in Headers */ = {isa = PBXBuildFile; fileRef = 277DDFD92D8055B700A5026C /* StyleDesign.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		276A5B192D894E9B007E5A35 /* ThirdpartyUtils.swift in Headers */ = {isa = PBXBuildFile; fileRef = 277DDFDA2D8055B700A5026C /* ThirdpartyUtils.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		276A5B1A2D894E9B007E5A35 /* Utils.swift in Headers */ = {isa = PBXBuildFile; fileRef = 277DDFDB2D8055B700A5026C /* Utils.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		276A5B212D895AA4007E5A35 /* Aquarius.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276A5B1F2D895AA4007E5A35 /* Aquarius.framework */; };
 		277DDFA12D80557B00A5026C /* CommonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277DDF962D80557A00A5026C /* CommonFramework.framework */; };
 		277DDFDE2D8055B700A5026C /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277DDFCE2D8055B700A5026C /* BaseCell.swift */; };
 		277DDFDF2D8055B700A5026C /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277DDFCF2D8055B700A5026C /* BaseCollectionViewCell.swift */; };
@@ -35,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		276A5B1F2D895AA4007E5A35 /* Aquarius.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Aquarius.framework; sourceTree = "<group>"; };
 		277DDF962D80557A00A5026C /* CommonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		277DDFA02D80557B00A5026C /* CommonFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		277DDFCE2D8055B700A5026C /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				276A5B212D895AA4007E5A35 /* Aquarius.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		276A5B202D895AA4007E5A35 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				276A5B1F2D895AA4007E5A35 /* Aquarius.framework */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
 		277DDF8C2D80557A00A5026C = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +124,7 @@
 		277DDFDC2D8055B700A5026C /* CommonFramework */ = {
 			isa = PBXGroup;
 			children = (
+				276A5B202D895AA4007E5A35 /* frameworks */,
 				277DDFCE2D8055B700A5026C /* BaseCell.swift */,
 				277DDFCF2D8055B700A5026C /* BaseCollectionViewCell.swift */,
 				277DDFD02D8055B700A5026C /* BaseCommon.swift */,
@@ -127,6 +151,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				277DDFEB2D8055B700A5026C /* CommonFramework.h in Headers */,
+				276A5B172D894E9B007E5A35 /* CommonParameters.swift in Headers */,
+				276A5B142D894E9B007E5A35 /* BaseView.swift in Headers */,
+				276A5B182D894E9B007E5A35 /* StyleDesign.swift in Headers */,
+				276A5B162D894E9B007E5A35 /* ColorDesign.swift in Headers */,
+				276A5B112D894E9B007E5A35 /* BaseCommon.swift in Headers */,
+				276A5B0F2D894E9B007E5A35 /* BaseCell.swift in Headers */,
+				276A5B132D894E9B007E5A35 /* BaseVC.swift in Headers */,
+				276A5B152D894E9B007E5A35 /* BaseVM.swift in Headers */,
+				276A5B102D894E9B007E5A35 /* BaseCollectionViewCell.swift in Headers */,
+				276A5B122D894E9B007E5A35 /* BaseDesign.swift in Headers */,
+				276A5B192D894E9B007E5A35 /* ThirdpartyUtils.swift in Headers */,
+				276A5B1A2D894E9B007E5A35 /* Utils.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,9 +329,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jzxstudio.CommonFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -329,6 +367,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";

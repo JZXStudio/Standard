@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Aquarius-Swift.h</key>
 		<data>
-		t16UwEq7yKpWeRKTOZIbRJuj0D0=
+		B1pN0nbjfOyt8xcVxSDItbMuTOU=
 		</data>
 		<key>Headers/Aquarius.h</key>
 		<data>
@@ -14,23 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7Af8AakdTmyyclK21DCH9WNCbSo=
+		4xO7kPuprdkOGmAQh4CIc1xwV0U=
 		</data>
 		<key>Modules/Aquarius.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		YlAi/f6jwtMcVf2mDL2ghvwKYFM=
+		weB/JrPYOrE6f8bqAkCX9qlouRs=
 		</data>
 		<key>Modules/Aquarius.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		gcwBsH4BgyFY4sVtNt+/xOKS3vY=
+		5v+l9vimiUNxhnBRnFfCUa8cfJ8=
 		</data>
 		<key>Modules/Aquarius.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2fpeiUVHukwhSdrs9kMiATLQm7I=
+		uInroX5kCbUnoFLnMd9fPZOFiso=
 		</data>
 		<key>Modules/Aquarius.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		j3epuuHT8NEYfGkW2bB0wuY3SbQ=
+		GVFS0Pzi3qb3hQjcyAQu+mpm88E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,11 +43,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t16UwEq7yKpWeRKTOZIbRJuj0D0=
+			B1pN0nbjfOyt8xcVxSDItbMuTOU=
 			</data>
 			<key>hash2</key>
 			<data>
-			/4BUoxKgtOAt9EhUHoST6HFk+cYioKrgSSFAd5qqJT0=
+			5vVY1DvOAMC7/jFprTRa9Tq1qE3A+H3jcTPFCgH602w=
 			</data>
 		</dict>
 		<key>Headers/Aquarius.h</key>
@@ -65,44 +65,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YlAi/f6jwtMcVf2mDL2ghvwKYFM=
+			weB/JrPYOrE6f8bqAkCX9qlouRs=
 			</data>
 			<key>hash2</key>
 			<data>
-			ePNtVgkUdR4TVCOOpIiDJbW2ayx9x3CX6Xe8mXkvQ5A=
+			oqHzHZWG7Lne+FPspNlMBrRESR8z+CH7EDKCr0CxQPE=
 			</data>
 		</dict>
 		<key>Modules/Aquarius.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gcwBsH4BgyFY4sVtNt+/xOKS3vY=
+			5v+l9vimiUNxhnBRnFfCUa8cfJ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qnesa0n4URGWAopawg9bGx36dUwkYV00BoCJ8LFzlyg=
+			zUHv44ACkMheb/xzO8gkc5HWf6uYIGwKZvhU5cjRj/E=
 			</data>
 		</dict>
 		<key>Modules/Aquarius.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2fpeiUVHukwhSdrs9kMiATLQm7I=
+			uInroX5kCbUnoFLnMd9fPZOFiso=
 			</data>
 			<key>hash2</key>
 			<data>
-			xGJOMX3hrXuv4AzwSSmNYHMsKAn369EqvYQz+9Halik=
+			Mj/P6HP6mhTG8KqtVQS/GJNRkFN0GcMGYb/GpKPH6W0=
 			</data>
 		</dict>
 		<key>Modules/Aquarius.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			j3epuuHT8NEYfGkW2bB0wuY3SbQ=
+			GVFS0Pzi3qb3hQjcyAQu+mpm88E=
 			</data>
 			<key>hash2</key>
 			<data>
-			LMJ8prdC/OGaEH+lFJt3Z9TnPqDYsjlP4BSoddx93q0=
+			hlQz16dgg9fkSu/Vu+sg0EqXogcSNxZ+W1e9AtIkr60=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

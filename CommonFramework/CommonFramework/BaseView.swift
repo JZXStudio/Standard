@@ -27,4 +27,11 @@ open class BaseView: AView {
         self.backgroundColor = design.colorDesign.bgColor
         self.getViewController()?.view.backgroundColor = design.colorDesign.bgColor
     }
+    
+    open func a_Inject() {}
+    
+    @objc
+    public func injected() {
+        a_Inject()
+    }
 }
